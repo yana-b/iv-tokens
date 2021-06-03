@@ -1,0 +1,133 @@
+{
+  "source": [
+    "tmp/**/*.json"
+  ],
+  "platforms": {
+    "scss": {
+      "transformGroup": "scss",
+      "buildPath": "MyStyleDictionary/scss/",
+      "files": [{
+        "destination": "_variables.scss",
+        "format": "scss/variables"
+      }]
+    },
+    "web": {
+      "transformGroup": "web",
+      "buildPath": "MyStyleDictionary/web/",
+      "files": [{
+        "destination": "_variables.css",
+        "format": "css/variables"
+      }]
+    },
+    "css": {
+      "transformGroup": "css",
+      "buildPath": "MyStyleDictionary/css/",
+      "files": [{
+        "destination": "_variables.css",
+        "format": "css/variables"
+      }]
+    },
+    "android": {
+      "transformGroup": "android",
+      "buildPath": "MyStyleDictionary/android/",
+      "files": [{
+        "destination": "font_dimens.xml",
+        "format": "android/fontDimens"
+      },{
+        "destination": "colors.xml",
+        "format": "android/colors"
+      }]
+    },
+    "ios": {
+      "transformGroup": "ios",
+      "buildPath": "MyStyleDictionary/ios/",
+      "files": [
+        {
+          "destination": "StyleDictionaryColor.h",
+          "format": "ios/colors.h",
+          "className": "StyleDictionaryColor",
+          "type": "StyleDictionaryColorName",
+          "filter": {
+            "attributes": {
+              "category": "color"              
+            }
+          }
+        },
+        {
+          "destination": "StyleDictionaryColor.m",
+          "format": "ios/colors.m",
+          "className": "StyleDictionaryColor",
+          "type": "StyleDictionaryColorName",
+          "filter": {
+            "attributes": {
+              "category": "color"
+            }
+          }
+        },
+        {
+          "destination": "StyleDictionarySize.h",
+          "format": "ios/static.h",
+          "className": "StyleDictionarySize",
+          "type": "float",
+          "filter": {
+            "attributes": {
+              "category": "size"
+            }
+          }
+        },
+        {
+          "destination": "StyleDictionarySize.m",
+          "format": "ios/static.m",
+          "className": "StyleDictionarySize",
+          "type": "float",
+          "filter": {
+            "attributes": {
+              "category": "size"
+            }
+          }
+        }
+      ]
+    },
+    "flutter": {
+      "transformGroup": "flutter",
+      "buildPath": "MyStyleDictionary/flutter/unique_file/",
+      "files": [
+          {
+              "destination": "style_dictionary.dart",
+              "format": "flutter/class.dart",
+              "className": "StyleDictionary"
+          }
+      ]
+  },
+  "flutter-separate": {
+      "transformGroup": "flutter-separate",
+      "buildPath": "MyStyleDictionary/flutter/",
+      "files": [
+          {
+              "destination": "style_dictionary_color.dart",
+              "format": "flutter/class.dart",
+              "className": "StyleDictionaryColor",
+              "type": "color",
+              "filter": {
+                  "attributes": {
+                      "category": "color"
+                  }
+              }
+          },
+          {
+              "destination": "style_dictionary_sizes.dart",
+              "format": "flutter/class.dart",
+              "className": "StyleDictionarySize",
+              "type": "float",
+              "filter": {
+                  "attributes": {
+                      "category": "size"
+                  }
+              }
+          }
+      ]
+  }
+   }
+  
+}
+

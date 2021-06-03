@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+TOKENS_URL=*****
+API_KEY=*****
+TMP_DIR=tmp
+ZIP_FILE=$TMP_DIR/dsm-style-dictionary.zip
+
+# Create temporary dir.
+mkdir -p $TMP_DIR
+
+# Download and unzip property files.
+curl -H "X-API-KEY: $API_KEY" $TOKENS_URL --output $ZIP_FILE
+unzip $ZIP_FILE -d $TMP_DIR
+
+# Create styles.
+style-dictionary build --config ./config.json
+
+# Clean up temporary dir.
+rm -rf $TMP_DIR

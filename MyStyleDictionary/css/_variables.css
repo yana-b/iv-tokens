@@ -1,0 +1,62 @@
+/**
+ * Do not edit directly
+ * Generated on Wed, 02 Jun 2021 11:17:49 GMT
+ */
+
+:root {
+  --color-greyscale-base: #858585;
+  --color-greyscale-dark: #464646;
+  --color-greyscale-darker: #181818;
+  --color-greyscale-darkest: #000000;
+  --color-greyscale-light: #c6c6c6;
+  --color-greyscale-lighter: #f1f1f1;
+  --color-greyscale-lightest: #ffffff;
+  --color-primary: #fb7170;
+  --color-secondary: #3dad9c;
+  --color-font-h1: #fb7170;
+  --color-font-h2: #181818;
+  --color-font-h3: #858585;
+  --color-font-h4: #181818;
+  --color-font-h5: #181818;
+  --color-heighlight: #3dad9c;
+  --color-hover: #3dad9c;
+  --font-family-body: 'Monaco';
+  --font-family-headings: 'Raleway', sans-serif;
+  --font-family-monospace: 'IBM Plex Mono', monospace;;
+  --size-font-l: 20rem;
+  --size-font-m: 16rem;
+  --size-font-s: 14rem;
+  --size-font-xl: 24rem;
+  --size-font-xs: 12rem;
+  --size-font-xxl: 36rem;
+  --size-font-xxs: 10rem;
+  --size-font-xxxl: 48rem;
+  --size-font-xxxs: 8rem;
+  --size-font-xxxxl: 64rem;
+  --size-font-body: 16rem;
+  --size-font-footer: 14rem;
+  --size-font-h1: 48rem;
+  --size-font-h2: 24rem;
+  --size-font-h3: 24rem;
+  --size-font-h4: 36rem;
+  --size-font-h5: 20rem;
+  --size-font-inputs: 14rem;
+  --weight-font-l: 500; /* medium */
+  --weight-font-m: 400; /* regular */
+  --weight-font-s: 300; /* light */
+  --weight-font-xs: 200; /* extra light */
+  --weight-font-xxl: 600; /* semi-bold */
+  --weight-font-xxs: 100; /* thin */
+  --weight-font-xxxl: 700; /* bold */
+  --weight-font-xxxxl: 800; /* extra bold */
+  --media-query-l: min-width: 992px; /* Large devices (desktops, 992px and up) */
+  --media-query-m: min-width: 768px; /* Medium devices (tablets, 768px and up) */
+  --media-query-s: min-width: 576px; /* Small devices (landscape phones, less than 768px) */
+  --media-query-xl: min-width: 1200px; /* Extra large devices (large desktops, 1200px and up) */
+  --media-query-xs: max-width: 575px; /* Extra small devices (portrait phones, less than 576px) */
+  --media-query-xxl: min-width: 1920px; /* Very large devices (desktops >= ~27in) */
+  --time-l: 0.00s;
+  --time-m: 0.00s;
+  --time-s: 0.00s;
+  --time-xl: 0.00s;
+}

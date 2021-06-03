@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  Do not edit directly
+  Generated on Wed, 02 Jun 2021 11:17:49 GMT
+-->
+<resources>
+  <dimen name="size_font_l">320.00sp</dimen>
+  <dimen name="size_font_m">256.00sp</dimen>
+  <dimen name="size_font_s">224.00sp</dimen>
+  <dimen name="size_font_xl">384.00sp</dimen>
+  <dimen name="size_font_xs">192.00sp</dimen>
+  <dimen name="size_font_xxl">576.00sp</dimen>
+  <dimen name="size_font_xxs">160.00sp</dimen>
+  <dimen name="size_font_xxxl">768.00sp</dimen>
+  <dimen name="size_font_xxxs">128.00sp</dimen>
+  <dimen name="size_font_xxxxl">1024.00sp</dimen>
+  <dimen name="size_font_body">256.00sp</dimen>
+  <dimen name="size_font_footer">224.00sp</dimen>
+  <dimen name="size_font_h1">768.00sp</dimen>
+  <dimen name="size_font_h2">384.00sp</dimen>
+  <dimen name="size_font_h3">384.00sp</dimen>
+  <dimen name="size_font_h4">576.00sp</dimen>
+  <dimen name="size_font_h5">320.00sp</dimen>
+  <dimen name="size_font_inputs">224.00sp</dimen>
+  
+</resources>

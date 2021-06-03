@@ -1,0 +1,863 @@
+{
+  "color": {
+    "greyscale": {
+      "base": {
+        "value": "#858585",
+        "filePath": "tmp/properties/1-global/colors.json",
+        "isSource": true,
+        "original": {
+          "value": "#858585"
+        },
+        "name": "base",
+        "attributes": {},
+        "path": [
+          "color",
+          "greyscale",
+          "base"
+        ]
+      },
+      "dark": {
+        "value": "#464646",
+        "filePath": "tmp/properties/1-global/colors.json",
+        "isSource": true,
+        "original": {
+          "value": "#464646"
+        },
+        "name": "dark",
+        "attributes": {},
+        "path": [
+          "color",
+          "greyscale",
+          "dark"
+        ]
+      },
+      "darker": {
+        "value": "#181818",
+        "filePath": "tmp/properties/1-global/colors.json",
+        "isSource": true,
+        "original": {
+          "value": "#181818"
+        },
+        "name": "darker",
+        "attributes": {},
+        "path": [
+          "color",
+          "greyscale",
+          "darker"
+        ]
+      },
+      "darkest": {
+        "value": "#000000",
+        "filePath": "tmp/properties/1-global/colors.json",
+        "isSource": true,
+        "original": {
+          "value": "#000000"
+        },
+        "name": "darkest",
+        "attributes": {},
+        "path": [
+          "color",
+          "greyscale",
+          "darkest"
+        ]
+      },
+      "light": {
+        "value": "#C6C6C6",
+        "filePath": "tmp/properties/1-global/colors.json",
+        "isSource": true,
+        "original": {
+          "value": "#C6C6C6"
+        },
+        "name": "light",
+        "attributes": {},
+        "path": [
+          "color",
+          "greyscale",
+          "light"
+        ]
+      },
+      "lighter": {
+        "value": "#F1F1F1",
+        "filePath": "tmp/properties/1-global/colors.json",
+        "isSource": true,
+        "original": {
+          "value": "#F1F1F1"
+        },
+        "name": "lighter",
+        "attributes": {},
+        "path": [
+          "color",
+          "greyscale",
+          "lighter"
+        ]
+      },
+      "lightest": {
+        "value": "#FFFFFF",
+        "filePath": "tmp/properties/1-global/colors.json",
+        "isSource": true,
+        "original": {
+          "value": "#FFFFFF"
+        },
+        "name": "lightest",
+        "attributes": {},
+        "path": [
+          "color",
+          "greyscale",
+          "lightest"
+        ]
+      }
+    },
+    "primary": {
+      "value": "#FB7170",
+      "filePath": "tmp/properties/1-global/colors.json",
+      "isSource": true,
+      "original": {
+        "value": "#FB7170"
+      },
+      "name": "primary",
+      "attributes": {},
+      "path": [
+        "color",
+        "primary"
+      ]
+    },
+    "secondary": {
+      "value": "#3DAD9C",
+      "filePath": "tmp/properties/1-global/colors.json",
+      "isSource": true,
+      "original": {
+        "value": "#3DAD9C"
+      },
+      "name": "secondary",
+      "attributes": {},
+      "path": [
+        "color",
+        "secondary"
+      ]
+    },
+    "heighlight": {
+      "value": "#FB7170",
+      "filePath": "tmp/properties/2-alias/colors.json",
+      "isSource": true,
+      "original": {
+        "value": "{color.primary.value}"
+      },
+      "name": "heighlight",
+      "attributes": {},
+      "path": [
+        "color",
+        "heighlight"
+      ]
+    },
+    "hover": {
+      "value": "#FB7170",
+      "filePath": "tmp/properties/2-alias/colors.json",
+      "isSource": true,
+      "original": {
+        "value": "{color.primary.value}"
+      },
+      "name": "hover",
+      "attributes": {},
+      "path": [
+        "color",
+        "hover"
+      ]
+    },
+    "font": {
+      "h1": {
+        "value": "#FB7170",
+        "filePath": "tmp/properties/2-alias/font-colors.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.primary.value}"
+        },
+        "name": "h1",
+        "attributes": {},
+        "path": [
+          "color",
+          "font",
+          "h1"
+        ]
+      },
+      "h2": {
+        "value": "#181818",
+        "filePath": "tmp/properties/2-alias/font-colors.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.greyscale.darker.value}"
+        },
+        "name": "h2",
+        "attributes": {},
+        "path": [
+          "color",
+          "font",
+          "h2"
+        ]
+      },
+      "h3": {
+        "value": "#858585",
+        "filePath": "tmp/properties/2-alias/font-colors.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.greyscale.base.value}"
+        },
+        "name": "h3",
+        "attributes": {},
+        "path": [
+          "color",
+          "font",
+          "h3"
+        ]
+      },
+      "h4": {
+        "value": "#181818",
+        "filePath": "tmp/properties/2-alias/font-colors.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.greyscale.darker.value}"
+        },
+        "name": "h4",
+        "attributes": {},
+        "path": [
+          "color",
+          "font",
+          "h4"
+        ]
+      },
+      "h5": {
+        "value": "#181818",
+        "filePath": "tmp/properties/2-alias/font-colors.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.greyscale.darker.value}"
+        },
+        "name": "h5",
+        "attributes": {},
+        "path": [
+          "color",
+          "font",
+          "h5"
+        ]
+      }
+    }
+  },
+  "font": {
+    "family": {
+      "body": {
+        "value": "'Monaco'",
+        "filePath": "tmp/properties/1-global/font-family.json",
+        "isSource": true,
+        "original": {
+          "value": "'Monaco'"
+        },
+        "name": "body",
+        "attributes": {},
+        "path": [
+          "font",
+          "family",
+          "body"
+        ]
+      },
+      "headings": {
+        "value": "'Raleway', sans-serif",
+        "filePath": "tmp/properties/1-global/font-family.json",
+        "isSource": true,
+        "original": {
+          "value": "'Raleway', sans-serif"
+        },
+        "name": "headings",
+        "attributes": {},
+        "path": [
+          "font",
+          "family",
+          "headings"
+        ]
+      },
+      "monospace": {
+        "value": "'IBM Plex Mono', monospace;",
+        "filePath": "tmp/properties/1-global/font-family.json",
+        "isSource": true,
+        "original": {
+          "value": "'IBM Plex Mono', monospace;"
+        },
+        "name": "monospace",
+        "attributes": {},
+        "path": [
+          "font",
+          "family",
+          "monospace"
+        ]
+      }
+    }
+  },
+  "size": {
+    "font": {
+      "l": {
+        "value": "20px",
+        "filePath": "tmp/properties/1-global/font-sizes.json",
+        "isSource": true,
+        "original": {
+          "value": "20px"
+        },
+        "name": "l",
+        "attributes": {},
+        "path": [
+          "size",
+          "font",
+          "l"
+        ]
+      },
+      "m": {
+        "value": "16px",
+        "filePath": "tmp/properties/1-global/font-sizes.json",
+        "isSource": true,
+        "original": {
+          "value": "16px"
+        },
+        "name": "m",
+        "attributes": {},
+        "path": [
+          "size",
+          "font",
+          "m"
+        ]
+      },
+      "s": {
+        "value": "14px",
+        "filePath": "tmp/properties/1-global/font-sizes.json",
+        "isSource": true,
+        "original": {
+          "value": "14px"
+        },
+        "name": "s",
+        "attributes": {},
+        "path": [
+          "size",
+          "font",
+          "s"
+        ]
+      },
+      "xl": {
+        "value": "24px",
+        "filePath": "tmp/properties/1-global/font-sizes.json",
+        "isSource": true,
+        "original": {
+          "value": "24px"
+        },
+        "name": "xl",
+        "attributes": {},
+        "path": [
+          "size",
+          "font",
+          "xl"
+        ]
+      },
+      "xs": {
+        "value": "12px",
+        "filePath": "tmp/properties/1-global/font-sizes.json",
+        "isSource": true,
+        "original": {
+          "value": "12px"
+        },
+        "name": "xs",
+        "attributes": {},
+        "path": [
+          "size",
+          "font",
+          "xs"
+        ]
+      },
+      "xxl": {
+        "value": "36px",
+        "filePath": "tmp/properties/1-global/font-sizes.json",
+        "isSource": true,
+        "original": {
+          "value": "36px"
+        },
+        "name": "xxl",
+        "attributes": {},
+        "path": [
+          "size",
+          "font",
+          "xxl"
+        ]
+      },
+      "xxs": {
+        "value": "10px",
+        "filePath": "tmp/properties/1-global/font-sizes.json",
+        "isSource": true,
+        "original": {
+          "value": "10px"
+        },
+        "name": "xxs",
+        "attributes": {},
+        "path": [
+          "size",
+          "font",
+          "xxs"
+        ]
+      },
+      "xxxl": {
+        "value": "48px",
+        "filePath": "tmp/properties/1-global/font-sizes.json",
+        "isSource": true,
+        "original": {
+          "value": "48px"
+        },
+        "name": "xxxl",
+        "attributes": {},
+        "path": [
+          "size",
+          "font",
+          "xxxl"
+        ]
+      },
+      "xxxs": {
+        "value": "8px",
+        "filePath": "tmp/properties/1-global/font-sizes.json",
+        "isSource": true,
+        "original": {
+          "value": "8px"
+        },
+        "name": "xxxs",
+        "attributes": {},
+        "path": [
+          "size",
+          "font",
+          "xxxs"
+        ]
+      },
+      "xxxxl": {
+        "value": "64px",
+        "filePath": "tmp/properties/1-global/font-sizes.json",
+        "isSource": true,
+        "original": {
+          "value": "64px"
+        },
+        "name": "xxxxl",
+        "attributes": {},
+        "path": [
+          "size",
+          "font",
+          "xxxxl"
+        ]
+      },
+      "body": {
+        "value": "16px",
+        "filePath": "tmp/properties/2-alias/font-sizes.json",
+        "isSource": true,
+        "original": {
+          "value": "{size.font.m.value}"
+        },
+        "name": "body",
+        "attributes": {},
+        "path": [
+          "size",
+          "font",
+          "body"
+        ]
+      },
+      "footer": {
+        "value": "14px",
+        "filePath": "tmp/properties/2-alias/font-sizes.json",
+        "isSource": true,
+        "original": {
+          "value": "{size.font.s.value}"
+        },
+        "name": "footer",
+        "attributes": {},
+        "path": [
+          "size",
+          "font",
+          "footer"
+        ]
+      },
+      "h1": {
+        "value": "48px",
+        "filePath": "tmp/properties/2-alias/font-sizes.json",
+        "isSource": true,
+        "original": {
+          "value": "{size.font.xxxl.value}"
+        },
+        "name": "h1",
+        "attributes": {},
+        "path": [
+          "size",
+          "font",
+          "h1"
+        ]
+      },
+      "h2": {
+        "value": "24px",
+        "filePath": "tmp/properties/2-alias/font-sizes.json",
+        "isSource": true,
+        "original": {
+          "value": "{size.font.xl.value}"
+        },
+        "name": "h2",
+        "attributes": {},
+        "path": [
+          "size",
+          "font",
+          "h2"
+        ]
+      },
+      "h3": {
+        "value": "24px",
+        "filePath": "tmp/properties/2-alias/font-sizes.json",
+        "isSource": true,
+        "original": {
+          "value": "{size.font.xl.value}"
+        },
+        "name": "h3",
+        "attributes": {},
+        "path": [
+          "size",
+          "font",
+          "h3"
+        ]
+      },
+      "h4": {
+        "value": "36px",
+        "filePath": "tmp/properties/2-alias/font-sizes.json",
+        "isSource": true,
+        "original": {
+          "value": "{size.font.xxl.value}"
+        },
+        "name": "h4",
+        "attributes": {},
+        "path": [
+          "size",
+          "font",
+          "h4"
+        ]
+      },
+      "h5": {
+        "value": "20px",
+        "filePath": "tmp/properties/2-alias/font-sizes.json",
+        "isSource": true,
+        "original": {
+          "value": "{size.font.l.value}"
+        },
+        "name": "h5",
+        "attributes": {},
+        "path": [
+          "size",
+          "font",
+          "h5"
+        ]
+      },
+      "inputs": {
+        "value": "14px",
+        "filePath": "tmp/properties/2-alias/font-sizes.json",
+        "isSource": true,
+        "original": {
+          "value": "{size.font.s.value}"
+        },
+        "name": "inputs",
+        "attributes": {},
+        "path": [
+          "size",
+          "font",
+          "inputs"
+        ]
+      }
+    }
+  },
+  "weight": {
+    "font": {
+      "l": {
+        "comment": "medium",
+        "value": "500",
+        "filePath": "tmp/properties/1-global/font-weight.json",
+        "isSource": true,
+        "original": {
+          "comment": "medium",
+          "value": "500"
+        },
+        "name": "l",
+        "attributes": {},
+        "path": [
+          "weight",
+          "font",
+          "l"
+        ]
+      },
+      "m": {
+        "comment": "regular",
+        "value": "400",
+        "filePath": "tmp/properties/1-global/font-weight.json",
+        "isSource": true,
+        "original": {
+          "comment": "regular",
+          "value": "400"
+        },
+        "name": "m",
+        "attributes": {},
+        "path": [
+          "weight",
+          "font",
+          "m"
+        ]
+      },
+      "s": {
+        "comment": "light",
+        "value": "300",
+        "filePath": "tmp/properties/1-global/font-weight.json",
+        "isSource": true,
+        "original": {
+          "comment": "light",
+          "value": "300"
+        },
+        "name": "s",
+        "attributes": {},
+        "path": [
+          "weight",
+          "font",
+          "s"
+        ]
+      },
+      "xs": {
+        "comment": "extra light",
+        "value": "200",
+        "filePath": "tmp/properties/1-global/font-weight.json",
+        "isSource": true,
+        "original": {
+          "comment": "extra light",
+          "value": "200"
+        },
+        "name": "xs",
+        "attributes": {},
+        "path": [
+          "weight",
+          "font",
+          "xs"
+        ]
+      },
+      "xxl": {
+        "comment": "semi-bold",
+        "value": "600",
+        "filePath": "tmp/properties/1-global/font-weight.json",
+        "isSource": true,
+        "original": {
+          "comment": "semi-bold",
+          "value": "600"
+        },
+        "name": "xxl",
+        "attributes": {},
+        "path": [
+          "weight",
+          "font",
+          "xxl"
+        ]
+      },
+      "xxs": {
+        "comment": "thin",
+        "value": "100",
+        "filePath": "tmp/properties/1-global/font-weight.json",
+        "isSource": true,
+        "original": {
+          "comment": "thin",
+          "value": "100"
+        },
+        "name": "xxs",
+        "attributes": {},
+        "path": [
+          "weight",
+          "font",
+          "xxs"
+        ]
+      },
+      "xxxl": {
+        "comment": "bold",
+        "value": "700",
+        "filePath": "tmp/properties/1-global/font-weight.json",
+        "isSource": true,
+        "original": {
+          "comment": "bold",
+          "value": "700"
+        },
+        "name": "xxxl",
+        "attributes": {},
+        "path": [
+          "weight",
+          "font",
+          "xxxl"
+        ]
+      },
+      "xxxxl": {
+        "comment": "extra bold",
+        "value": "800",
+        "filePath": "tmp/properties/1-global/font-weight.json",
+        "isSource": true,
+        "original": {
+          "comment": "extra bold",
+          "value": "800"
+        },
+        "name": "xxxxl",
+        "attributes": {},
+        "path": [
+          "weight",
+          "font",
+          "xxxxl"
+        ]
+      }
+    }
+  },
+  "media-query": {
+    "l": {
+      "comment": "Large devices (desktops, 992px and up)",
+      "value": "min-width: 992px",
+      "filePath": "tmp/properties/1-global/media-queries.json",
+      "isSource": true,
+      "original": {
+        "comment": "Large devices (desktops, 992px and up)",
+        "value": "min-width: 992px"
+      },
+      "name": "l",
+      "attributes": {},
+      "path": [
+        "media-query",
+        "l"
+      ]
+    },
+    "m": {
+      "comment": "Medium devices (tablets, 768px and up)",
+      "value": "min-width: 768px",
+      "filePath": "tmp/properties/1-global/media-queries.json",
+      "isSource": true,
+      "original": {
+        "comment": "Medium devices (tablets, 768px and up)",
+        "value": "min-width: 768px"
+      },
+      "name": "m",
+      "attributes": {},
+      "path": [
+        "media-query",
+        "m"
+      ]
+    },
+    "s": {
+      "comment": "Small devices (landscape phones, less than 768px)",
+      "value": "min-width: 576px",
+      "filePath": "tmp/properties/1-global/media-queries.json",
+      "isSource": true,
+      "original": {
+        "comment": "Small devices (landscape phones, less than 768px)",
+        "value": "min-width: 576px"
+      },
+      "name": "s",
+      "attributes": {},
+      "path": [
+        "media-query",
+        "s"
+      ]
+    },
+    "xl": {
+      "comment": "Extra large devices (large desktops, 1200px and up)",
+      "value": "min-width: 1200px",
+      "filePath": "tmp/properties/1-global/media-queries.json",
+      "isSource": true,
+      "original": {
+        "comment": "Extra large devices (large desktops, 1200px and up)",
+        "value": "min-width: 1200px"
+      },
+      "name": "xl",
+      "attributes": {},
+      "path": [
+        "media-query",
+        "xl"
+      ]
+    },
+    "xs": {
+      "comment": "Extra small devices (portrait phones, less than 576px)",
+      "value": "max-width: 575px",
+      "filePath": "tmp/properties/1-global/media-queries.json",
+      "isSource": true,
+      "original": {
+        "comment": "Extra small devices (portrait phones, less than 576px)",
+        "value": "max-width: 575px"
+      },
+      "name": "xs",
+      "attributes": {},
+      "path": [
+        "media-query",
+        "xs"
+      ]
+    },
+    "xxl": {
+      "comment": "Very large devices (desktops >= ~27in)",
+      "value": "min-width: 1920px",
+      "filePath": "tmp/properties/1-global/media-queries.json",
+      "isSource": true,
+      "original": {
+        "comment": "Very large devices (desktops >= ~27in)",
+        "value": "min-width: 1920px"
+      },
+      "name": "xxl",
+      "attributes": {},
+      "path": [
+        "media-query",
+        "xxl"
+      ]
+    }
+  },
+  "time": {
+    "l": {
+      "value": "0.3s",
+      "filePath": "tmp/properties/1-global/time.json",
+      "isSource": true,
+      "original": {
+        "value": "0.3s"
+      },
+      "name": "l",
+      "attributes": {},
+      "path": [
+        "time",
+        "l"
+      ]
+    },
+    "m": {
+      "value": "0.2s",
+      "filePath": "tmp/properties/1-global/time.json",
+      "isSource": true,
+      "original": {
+        "value": "0.2s"
+      },
+      "name": "m",
+      "attributes": {},
+      "path": [
+        "time",
+        "m"
+      ]
+    },
+    "s": {
+      "value": "0.1s",
+      "filePath": "tmp/properties/1-global/time.json",
+      "isSource": true,
+      "original": {
+        "value": "0.1s"
+      },
+      "name": "s",
+      "attributes": {},
+      "path": [
+        "time",
+        "s"
+      ]
+    },
+    "xl": {
+      "value": ".4s",
+      "filePath": "tmp/properties/1-global/time.json",
+      "isSource": true,
+      "original": {
+        "value": ".4s"
+      },
+      "name": "xl",
+      "attributes": {},
+      "path": [
+        "time",
+        "xl"
+      ]
+    }
+  }
+}
